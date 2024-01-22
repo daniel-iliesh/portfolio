@@ -1,0 +1,1 @@
+import{d as o,c as t,w as a,I as n,J as r,o as s,a as _}from"./index-kPcl814B.js";const u=o({__name:"View",setup(c){return(p,i)=>{const e=r("router-view");return s(),t(n,null,{default:a(()=>[_(e)]),_:1})}}});export{u as _};
