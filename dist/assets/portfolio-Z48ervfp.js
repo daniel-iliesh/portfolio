@@ -1,0 +1,1 @@
+import{_ as e}from"./HelloWorld.vue_vue_type_script_setup_true_lang-dOFPxrc0.js";import{d as t,c as r,o as n}from"./index-kPcl814B.js";import"./VImg-23SVDBGF.js";const f=t({__name:"portfolio",setup(_){return(c,a)=>{const o=e;return n(),r(o)}}});export{f as default};
