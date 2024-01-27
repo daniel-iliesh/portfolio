@@ -1,7 +1,7 @@
 <template>
     <h2>Hello from Blog pages</h2>
     <ul v-for="(page, index) in pages">
-        <router-link :key="index" :to="`blog/${page}`">
+        <router-link :key="index" exact :to="`/blog/${page}`">
             {{ page }}
         </router-link>
     </ul>

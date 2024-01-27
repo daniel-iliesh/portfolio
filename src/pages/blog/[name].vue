@@ -18,13 +18,17 @@ const blogText = ref('');
 const url = `https://raw.githubusercontent.com/rocketchamp/portfolio/main/${blogname}.md`
 
 onMounted(() => {
-    fetch(url).then(response => {
+    fetch(url).then((response) => {
         if (response?.status == 200) {
             response.text().then(text => {
-                blogText.value = marked(text);
+                parseText(text);
             });
         }
     })
 });
+
+async function parseText(text: string) {
+    blogText.value = await marked.parse(text);
+}
 
 </script>
