@@ -5,6 +5,114 @@
  */
 
 // https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+@use 'vuetify/settings' with (
+  $color-pack: false
+);
+
+.markdown {
+    padding: 30px;
+    // style the headings
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    // style the paragraphs
+    p {
+        font-family: Georgia, serif;
+        font-size: 1em;
+        line-height: 1.5;
+        margin: 0.5em 0;
+    }
+
+    // style the blockquotes
+    blockquote {
+        font-style: italic;
+        border-left: 4px solid #ccc;
+        padding-left: 1em;
+        margin-left: 0;
+    }
+
+    // style the lists
+    ul,
+    ol {
+        margin: 0.5em 0;
+        padding-left: 2em;
+    }
+
+    li {
+        margin-bottom: 0.25em;
+    }
+
+    // style the code blocks
+    pre {
+        margin: 10px;
+        font-family: "Courier New", monospace;
+        font-size: 0.9em;
+        font-weight: bold;
+        background-color: #f0f0f0;
+        padding: 0.5em;
+        overflow-x: auto;
+        color: #121212;
+        border-radius: 2px;
+    }
+
+    code {
+        font-family: "Courier New", monospace;
+        font-size: 0.9em;
+        font-weight: bold;
+        background-color: #f0f0f0;
+        padding: 0.2em;
+        border-radius: 2px;
+    }
+
+    // style the tables
+    table {
+        color: #121212;
+        border-collapse: collapse;
+        margin: 0.5em 0;
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 0.5em;
+        text-align: left;
+    }
+
+    th {
+        background-color: #eee;
+        font-weight: bold;
+    }
+
+    // style the links
+    a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0099ff;
+        text-decoration: underline;
+    }
+}
