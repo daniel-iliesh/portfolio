@@ -1,0 +1,28 @@
+{
+    "userReadme": "<h3>User Readme</h3><p>An example of user readme.</p>",
+    "user": {
+        "avatar_url": "src/assets/avatar.jpeg",
+        "email": "iliesh.daniel@gmail.com",
+        "name": "Daniel Ilies"
+    },
+    "projects": [
+        {
+            "name": "Example project 1",
+            "favimage": "src/assets/pelmen.png",
+            "description": "Example description for the example project",
+            "html_url": ""
+        },
+        {
+            "name": "Example project 2",
+            "favimage": "src/assets/pelmen.png",
+            "description": "Example description for the example project",
+            "html_url": ""
+        },
+        {
+            "name": "Example project 3",
+            "favimage": "src/assets/pelmen.png",
+            "description": "Example description for the example project",
+            "html_url": ""
+        }
+    ]
+}

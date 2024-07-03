@@ -1,0 +1,3 @@
+<template>
+    <ProjectsCards />
+</template>
