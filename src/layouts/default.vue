@@ -1,13 +1,7 @@
 <template>
-    <v-app>
-        <NavigationView />
-        <AppBar />
-        <v-row>
-            <v-col>
-                <DefaultView />
-            </v-col>
-        </v-row>
-    </v-app>
+  <NavigationView />
+  <AppBar />
+  <DefaultView />
 </template>
 
 <script lang="ts" setup>
